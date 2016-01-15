@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link href="css/stylesheet.css" rel="stylesheet">
+	
+   </head>
+    <body>
+	<div id="liseret">
+	<div class="infoLiseret">
+	<p>statistiques joueur:</p>
+	<div id="stat">Pourcentage de victoire : 0 %</div>
+	<div id="stat2">Nombre de victoires : 0</div>
+	<div id="stat3">Nombre de defaites : 0</div>
+	<div id="stat4">Nombre d'égalités : 0</div>
+	<div id="stat5">Nombre de parties jouées : 0</div>
+	</div>
+
+	</div>
+	
+        <h1>PIERRE - FEUILLE - CISEAUX</h1>
+				
+					<div id="imageO">
+						<img src="img/pierreO.png" alt="pierre" id="pierreO" width="150" height="150" />
+						<img src="img/feuilleO.png" alt="feuille" id="feuilleO" width="150" height="150" />
+						<img src="img/ciseauxO.png" alt="ciseaux" id="ciseauxO" width="150" height="150" />
+					</div>
+						
+					<div id="resultat">VS</div>
+
+					<div id="joueur">
+						<img src="img/pierre.png" alt="pierre" id="pierre" width="150" height="150" onmousedown="mouseDown()"onmouseup="mouseUp()"/>
+						<img src="img/feuille.png" alt="feuille" id="feuille" width="150" height="150" onmousedown="mouseDown1()"onmouseup="mouseUp1()"/>
+						<img src="img/ciseaux.png" alt="ciseaux" id="ciseaux" width="150" height="150" onmousedown="mouseDown2()"onmouseup="mouseUp2()"/>
+					</div>
+				<input type="button" value="réinitialiser" id="zero">
+			<p>Cliquer sur l'image de votre choix</p>
+	<div id="liseret2">
+		<div class="infoLiseret">
+		<div id="statIA">
+		<p>statistiques ordinateur :</p>
+		<div id="statIA1">Joue pierre à : 0 %</div>
+		<div id="statIA2">Joue feuille à : 0 %</div>
+		<div id="statIA3">Joue ciseaux à : 0 %</div>
+		</div>
+		</div>
+	</div>
+		<script src="jquery/jquery.min.js"></script>
+    	<script src="js/semaine11.js"></script>
+    </body>
+</html>
