@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link href="css/stylesheet.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> <!--lien vers le CDN de Bootstrap-->
+
+   </head>
+    <body>
+        <h1>JOUER AVEC LES NOMBRES</h1>
+		<div class="row">
+			<div class="col-md-6">
+			<h2>Trouver le bon chiffre</h2>
+				<p><input type="number" id="choix" placeholder="0" ></p>
+				<div id="selection">
+					<div id="resultat"></div>
+					<p><button id="bouton" onmousedown="mouseDown()" onmouseup="mouseUp()">envoyer</button></p>
+					<p><button id="newgame" onmousedown="mouseDown()" onmouseup="mouseUp()">rejouer</button></p>
+				</div>
+			
+					<div id="compte"></div>
+			</div>
+				
+			
+			<div class="col-md-6">
+				<h2>A mon tour</h2>
+				<div id="genie"><a><img src="img/genie2.png" alt="genie" width="150" height="150"/></a></div>
+				<div id="texte1"><p>Pense à un nombre entre 1 et 100</p></div>
+				<button id="debut">Nouvelle partie</button>
+				<div id="essai"></div>
+				<p><button id="petit">c'est plus</button></p>
+				<p><button id="grand">c'est moins</button></p>
+				<div id="cpt"></div>
+			</div>
+		</div>
+		
+		<script src="jquery/jquery.min.js"></script>
+    	<script src="js/semaine11.js"></script>
+    </body>
+</html>

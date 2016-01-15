@@ -1,0 +1,49 @@
+h1{
+	text-align:center;
+}
+h2{
+
+	color:yellow;
+}
+body{
+	background-image:radial-gradient(circle at center,white ,#A6A9A9 );
+	background-size:100%;
+	color:white;
+}
+#resultat{
+	height: 50px;
+	font-size:40px;
+}
+#compte{
+	font-size:20px;
+}
+.row{
+	padding-left:20px;
+
+}
+
+#essai{
+	font-size:40px;
+	height :30px;
+	float:right;
+	margin-right:40px;
+
+}
+#cpt{
+	font-size:20px;
+}
+#texte1{
+	font-size:15px;
+		margin-bottom:10px;
+}
+#genie{
+
+	height:200px;
+	width:200px;
+	float:right;
+
+
+}
+#debut{
+	margin-bottom:30px;
+}
